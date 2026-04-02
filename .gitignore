@@ -1,22 +1,26 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# Basic gitignore template for Hugo SSG - which has some stuff for WordPress migration
+#
+# This is a template .gitignore file for git-managed Hugo projects.
+#
+# Fact: you don't want Hugo core files, or your server-specific
+# configuration files etc., in your project's repository. You just don't.
+#
+# Ignore everything in the root except the "content" directory and "static"
+/*
+!.gitignore
+!content/
+!*.toml
+!static/
+
+#OS
+.DS_Store
+
+# Ignore everything in the "content" directory,
+# and "themes" directories.
+content/*
+themes/*
+# uncomment below if you dont want to load static img resources
+# !static/img
+
+# uncomment below if you are migrating from WordPress
+# static/wp-content/*
