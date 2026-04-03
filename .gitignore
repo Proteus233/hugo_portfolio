@@ -1,26 +1,16 @@
-# Basic gitignore template for Hugo SSG - which has some stuff for WordPress migration
-#
-# This is a template .gitignore file for git-managed Hugo projects.
-#
-# Fact: you don't want Hugo core files, or your server-specific
-# configuration files etc., in your project's repository. You just don't.
-#
-# Ignore everything in the root except the "content" directory and "static"
-/*
-!.gitignore
-!content/
-!*.toml
-!static/
+# Hugo generated files
+/public/
+/resources/_gen/
 
-#OS
+# OS files
 .DS_Store
+Thumbs.db
 
-# Ignore everything in the "content" directory,
-# and "themes" directories.
-content/*
-themes/*
-# uncomment below if you dont want to load static img resources
-# !static/img
+# Logs
+*.log
 
-# uncomment below if you are migrating from WordPress
-# static/wp-content/*
+# Optional: Hugo cache
+.hugo_build.lock
+
+# Node (if you ever use npm tools/themes)
+node_modules/
