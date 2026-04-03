@@ -1,2 +1,4 @@
 # hugo_portfolio
-hugo
+This is my personal website that i selfhost on my server.
+## Server specs
+ - Hp elitedesk SFF G3
