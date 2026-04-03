@@ -2,6 +2,12 @@
 none = "none"
 
 [[main]]
+  name    = "About"
+  pageRef = "about"
+  weight  = 10
+ 
+
+[[main]]
 name = "My server"
 pageRef = "server"
 identifier = "B471XTEULd"

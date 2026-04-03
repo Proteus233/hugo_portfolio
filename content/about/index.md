@@ -1,0 +1,1 @@
+I'm am passionate about computres and virtualization. I'm currently studying Computer Science at UPC BArcelona FIB.
