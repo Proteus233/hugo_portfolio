@@ -9,6 +9,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
+description = "My personal portfolio as a Computer Science student"
 
 ["params.author"]
 bio = "Estudiant d'Enginyeria Informàtica"
