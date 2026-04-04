@@ -12,6 +12,7 @@ dateFormat = "2 January 2006"
 description = "My personal portfolio as a Computer Science student"
 
 ["params.author"]
+name = "Isaac Miró"
 bio = "Estudiant d'Enginyeria Informàtica"
 headline = "Computer Science Student"
 
