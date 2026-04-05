@@ -36,7 +36,7 @@ HP EliteDesk (Proxmox)
 
 ## Remote connection
 I use **tailscale exit node** on a debian lxc so I can remote into my home LAN.  
-### 🔐 Tailscale (Exit Node Setup)
+### Tailscale (Exit Node Setup)
 
 I use **Tailscale** to securely access my homelab from anywhere.
 
