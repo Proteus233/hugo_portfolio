@@ -7,10 +7,9 @@ Hi my name is Isaac Miró.
 I'm passionate about computres and virtualization. I'm currently studying Informatics Engineering at the Barcelona School of Informatics (FIB)
 {{< github repo="Proteus233/hugo_portfolio" showThumbnail=true >}}
 - - -
-## Habilities
-- C++ (intermediate)
-- Python (Beginner)
-- Docker
-- Proxmox VE
-- Truenas
-- Nginx
+## Technical stack
+- **Virtualitzation:** Proxmox VE, LXC containers, Docker
+- **Storage:** Truenas Scale, NFS shares, SMB shares
+- **Networking and security:** Nginx Proxy Manager, Cloudfare Tunnel, Tailscale, DNS servers
+- **Operating systems:** Debian, Ubuntu Server
+- **Languages:** C++
