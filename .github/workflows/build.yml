@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - master
+
+permissions:
+  id-token: write  # required for federated identity
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,3 +24,19 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+
+
+
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v4
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          audience: ${{ secrets.TS_AUDIENCE }}
+          tags: tag:ci
+          version: latest
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" \
+            ./public/ deploy@${{ secrets.TS_SERVER_HOSTNAME }}:/var/www/portfolio/
