@@ -7,7 +7,7 @@ tags: ["proxmox", "truenas", "docker", "linux", "self-hosting"]
 
 ## Overview
 
-My homelab is built around a secondhand **HP EliteDesk SFF G3** (i5-7500) running **Proxmox VE** as the hypervisor. This server has tyaught me the basics of virtualitzation.
+My homelab is built around a secondhand **HP EliteDesk SFF G3** (i5-7500) running **Proxmox VE** as the hypervisor. This server has taught me the basics of virtualitzation.
 
 ---
 
