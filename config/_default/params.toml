@@ -1,6 +1,8 @@
 colorScheme = "github"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
+defaultBackgroundImage = "background.jpg"
+
 enableA11y = false
 enableSearch = true
 enableCodeCopy = false
@@ -34,15 +36,16 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
-layoutBackgroundBlur = false
+layoutBackgroundBlur = true
 disableHeroImageFilter = false
+homepageImage = "images/background.jpg"
 
 [article]
 showDate = true
@@ -51,7 +54,8 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -71,7 +75,8 @@ showWordCount = true
 showZenMode = false
 
 [list]
-showHero = false
+showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
