@@ -23,11 +23,9 @@ verification = { }
 rssnext = { }
 advertisement = { }
 showViews = true
-backgroundCanvas = ""
 
 [header]
 layout = "fixed-fill-blur"
-mobileMenuStyle = ""
 
 [footer]
 showMenu = true
@@ -58,7 +56,7 @@ showAuthor = true
 showHero = true
 heroStyle = "background"
 layoutBackgroundBlur = true
-layoutBackgroundHeaderSpace = true
+layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
 showDraftLabel = true
 showEdit = false
