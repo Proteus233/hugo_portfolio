@@ -2,7 +2,6 @@ colorScheme = "github"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 defaultBackgroundImage = "background.jpg"
-
 enableA11y = false
 enableSearch = true
 enableCodeCopy = false
@@ -24,9 +23,11 @@ verification = { }
 rssnext = { }
 advertisement = { }
 showViews = true
+backgroundCanvas = ""
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
+mobileMenuStyle = ""
 
 [footer]
 showMenu = true
