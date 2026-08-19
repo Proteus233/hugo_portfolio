@@ -26,6 +26,7 @@ showViews = true
 
 [header]
 layout = "fixed-fill-blur"
+mobileMenuStyle = "fullscreen"
 
 [footer]
 showMenu = true
