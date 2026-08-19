@@ -15,6 +15,9 @@ description = "My personal portfolio as a Computer Science student"
 name = "Isaac Miró"
 bio = "Estudiant d'Enginyeria Informàtica"
 headline = "Computer Science Engineering Student"
+image = "isaac_face.jpg"
+imageQuality = ""
+email = "isaac.miro@estudiantat.up.edu"
 
   [["params.author".links]]
   github = "https://github.com/Proteus233/hugo_portfolio"
