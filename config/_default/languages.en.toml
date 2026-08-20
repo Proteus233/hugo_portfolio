@@ -2,14 +2,14 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Proteus23 portfolio"
+title = "Isaac Miró portfolio"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = "My personal portfolio as a Computer Science student"
+description = "Isaac Miró (Proteus23). My personal portfolio as a Computer Science student at FIB UPC."
 
 ["params.author"]
 name = "Isaac Miró"
@@ -17,7 +17,7 @@ bio = "Estudiant d'Enginyeria Informàtica"
 headline = "Computer Science Engineering Student"
 image = "isaac_face.jpg"
 imageQuality = ""
-email = "isaac.miro@estudiantat.up.edu"
+email = "isaac.miro@estudiantat.upc.edu"
 
   [["params.author".links]]
   github = "https://github.com/Proteus233/hugo_portfolio"
