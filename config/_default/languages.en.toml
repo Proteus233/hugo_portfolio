@@ -20,7 +20,7 @@ imageQuality = ""
 email = "isaac.miro@estudiantat.upc.edu"
 
   [["params.author".links]]
-  github = "https://github.com/Proteus233/hugo_portfolio"
+  github = "https://github.com/Proteus233"
 
   [["params.author".links]]
-  linkedin = "https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BAaqS3PTfREa%2ByznbKx6GZg%3D%3D"
+  linkedin = "https://www.linkedin.com/in/isaac-miro-garcia/"

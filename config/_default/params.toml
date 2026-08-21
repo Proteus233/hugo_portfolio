@@ -73,7 +73,7 @@ showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
-showTags = ""
+showTags = "true"
 
 [list]
 showHero = true
