@@ -8,8 +8,8 @@ none = "none"
  
 
 [[main]]
-name = "My server"
-pageRef = "server"
+name = "My homelab"
+pageRef = "homelab"
 identifier = "B471XTEULd"
 weight = 9_999
 
